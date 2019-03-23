@@ -1,0 +1,61 @@
+
+.navbar-brand {
+  font-size: 35px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #6b8e23;
+}
+
+.main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img_hover_about_info {
+  display: block;
+}
+.img_hover_about_info .about_info {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 1px 1px 1px 1px;
+  color: #ffffff;
+  background: #3d5114; /* #000000;*/
+  text-decoration: none;
+  text-align: center;  
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.img_hover_about_info:hover .about_info {
+    opacity: 0.8;
+}
+
+
+.jumbotron {
+  background-image: url('../img/jumbo-bg.jpg');
+  background-size: cover;
+}
+
+
+.carousel {
+  align-content: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.detailBox {
+  width:320px;
+  border:1px solid #bbb;
+  margin:50px;
+}
+
+.footer-border {
+  border: 2px ridge #343840;
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 1px;
+}
