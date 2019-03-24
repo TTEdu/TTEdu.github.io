@@ -1,17 +1,55 @@
+/*************************************
+  Your project includes at least 3 
+  custom-written CSS selectors/rules 
+  in a .css file which are applied to 
+  your HTML elements
+**************************************/
 
-.navbar-brand {
-  font-size: 35px; 
+/* navbar */
+.navbar-default {
+  background-color: #000000;
+  border-color: #ffffff;
+}
+
+.btn--override {
+  background-color: #000000;
+  border-radius: 12px;
+}
+
+.logo--resize {
+
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.btn--custom {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #6b8e23;
+  color:#556b2F;
+  font-size: 1rem;
+  margin: 0px;  
 }
 
-.main {
-  padding-left: 15px;
-  padding-right: 15px;
+.navbar-header :hover {
+  box-shadow: 4px 2px 22px -6px #aaaaaa;
 }
+
+.nav-item {
+  color: #556b2F;
+}
+
+.link--custom :hover {
+  color: #ffffff;
+}
+
+.navbar-default {
+  color: #ffffff;
+}
+
+
 .img_hover_about_info {
   display: block;
 }
+
 .img_hover_about_info .about_info {
   opacity: 0;
   position: absolute;
@@ -19,9 +57,9 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  padding: 1px 1px 1px 1px;
+  padding: 2px 2px 2px 2px;
   color: #ffffff;
-  background: #3d5114; /* #000000;*/
+  background: #556B2F; 
   text-decoration: none;
   text-align: center;  
   -webkit-transition: opacity 500ms;
@@ -32,13 +70,6 @@
 .img_hover_about_info:hover .about_info {
     opacity: 0.8;
 }
-
-
-.jumbotron {
-  background-image: url('../img/jumbo-bg.jpg');
-  background-size: cover;
-}
-
 
 .carousel {
   align-content: center;
@@ -52,10 +83,62 @@
   margin:50px;
 }
 
-.footer-border {
-  border: 2px ridge #343840;
+.line-border {
+  border: 2px ridge #556B2F;
         width: 100%;
         margin: auto;
         margin-top: 5px;
         margin-bottom: 1px;
 }
+
+.himage {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.hmiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hcontainer:hover .himage {
+  opacity: 0.3;
+}
+
+.hcontainer:hover .hmiddle {
+  opacity: 1;
+}
+
+.htext {
+  background-color: #000000;
+  color: white;
+  font-size: 100%;
+  padding: 10px 10px;
+}
+
+.social-icon {
+  background-color: #556b2F;
+}
+}
+/*
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecf0f1;
+    background-color: #000000;
+  }
+}
+*/
