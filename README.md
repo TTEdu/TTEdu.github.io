@@ -1,6 +1,8 @@
-## Front End Web Development Project Requirements (Code Louisville March 29th by noon
-## Tina Thomas 
+## Code Louisville March 2019 Project 
+## Front End Web Development 
+## Developer: Tina Thomas 
 
+Direct link:
 https://ttedu.github.io/
 
 Developed with the assistance of bootstrap
