@@ -14,6 +14,7 @@
 .btn--override {
   background-color: #000000;
   border-radius: 12px;
+  box-shadow: 4px 2px 22px -6px #aaaaaa;
 }
 
 .logo--resize {
@@ -29,7 +30,7 @@
   margin: 0px;  
 }
 
-.navbar-header :hover {
+.navbar-header {
   box-shadow: 4px 2px 22px -6px #aaaaaa;
 }
 
@@ -89,6 +90,10 @@
         margin: auto;
         margin-top: 5px;
         margin-bottom: 1px;
+}
+
+.ig--func :hover {
+
 }
 
 .himage {

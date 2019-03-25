@@ -21,6 +21,10 @@
 	color: #556b2F;
 }
 
+.social-icon {
+	background-color: transparent;
+}
+
 /* Set vendor-specific animation name and duration on .logo class */
 
 .logo {
