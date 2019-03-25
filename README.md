@@ -1,6 +1,7 @@
 ## Code Louisville March 2019 Project 
 ## Front End Web Development 
 ## Developer: Tina Thomas 
+## Projects GitHub Repository (root) https://github.com/TTEdu/TTEdu.github.io
 
 Direct link:
 https://ttedu.github.io/
@@ -30,7 +31,7 @@ Developed with the assistance of bootstrap
   - footer includes the modal button, email with a button (that is not active), and the same functionality of contact and social media
     in the navbar
     
-Disclaimer... this is still a work in progress
+Disclaimer... this is still a work in progress --- improvements since last commit 
 
 several custom css pieces
 only one custom javascript using a function to branch to instagram for the mock instagram feed 
