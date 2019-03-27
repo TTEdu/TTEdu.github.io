@@ -1,10 +1,9 @@
+## Direct link: https://ttedu.github.io/
 ## Code Louisville March 2019 Project 
 ## Front End Web Development 
 ## Developer: Tina Thomas 
-## Projects GitHub Repository (root) https://github.com/TTEdu/TTEdu.github.io
 
-Direct link:
-https://ttedu.github.io/
+Welcome to Blood Bone Knives - a Website in progress 
 
 Developed with the assistance of bootstrap
   - using navbar (originally had a different design but my husband did not like how it looked on mobile so stream lined to his liking)
@@ -31,7 +30,7 @@ Developed with the assistance of bootstrap
   - footer includes the modal button, email with a button (that is not active), and the same functionality of contact and social media
     in the navbar
     
-Disclaimer... this is still a work in progress --- improvements since last commit 
+Disclaimer... this is still a work in progress --- ongoing imrovements subject to not be included in the readme file
 
 several custom css pieces
 only one custom javascript using a function to branch to instagram for the mock instagram feed 
