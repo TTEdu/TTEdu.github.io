@@ -1,34 +1,4 @@
 <!DOCTYPE html>
-<!--
-  ***comments noting major portions of code
-  ***uploaded to GitHub account
-  ***link submitted via the provided form 
-  ***must include a README file 
-      located at the top level directory 
-      includes a description of project 
-      and - if necessary - any special 
-      instructions to run/view your project
-  ***include a front-end framework such as 
-       AJAX, jQuery, or Angular 
-       in your project as a demonstration 
-       of your ability to utilize these. 
-       However, this is not a requirement 
-       of a passing project
-  ***add some form of user interactivity 
-       where something responds to an action 
-       the user performs. 
-  ***No “asset swap” projects - meaning, 
-        you cannot take a working project 
-        (such as a Treehouse sample project) 
-        and change the name, colors, or 
-        other superficial properties
-  ***demonstrates base knowledge in the concepts 
-        learned.
-
-  Notes for future design: 
-      rework naviation bar and hero presentation (I am the first to admit this is ugly)
-      accessibility needs a lot of work
--->
   <head>
     <title>Blood Bone Knives</title>
     <link rel="icon" href="img/logo/bloodbone-logo.png" type="image/png" size="16x16">
@@ -111,21 +81,24 @@
           </div>
         </div>
         <div class="card-body">
+          <!--added tool tip for definition of metallurgy -->
           <h5 class="card-title">Welcome to Blood Bone Knives</h5>
-          <p class="card-text">Forging to Stock Removal understanding the metallurgy of 
-              each steel you are working with is the key to producing a superior blade 
+          <p class="card-text">Forging to Stock Removal understanding the                
+            <a class="ui-tooltip" title="The branch of science and technology concerned with the properties of 
+              metals and their production and purification."><span style="cursor: help;"><i>metallurgy</i></span></a>
+              of each steel you are working with is the key to producing a superior blade 
               that cuts <strong>CLEAR TO THE BONE</strong></p>
-            <p class="card-text"><small class="text-muted">Last updated 7 days ago</small></p>
+          <p class="card-text"><small class="text-muted">Last updated 7 days ago</small></p>
         </div>
         </div>
-        <div class="card"> <!-- custom js function to redirect and open a new tab for instagram -->         
+        <!-- custom js function to redirect and open a new tab for instagram -->
+        <div class="card">          
           <div class="hcontainer">
             <img src="img/mock_insta_blogfeed.png" onclick="ig_function()" alt="instagram blog" width=100% alt="mock instagram feed">
             <div class="hmiddle">
               <div class="htext">Select image to redirect to Instagram</div>
             </div>
-          </div>
-            
+          </div>            
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text"></p>
@@ -154,7 +127,7 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">Bushcraft/Survival</h5>
-            <p class="card-text">The key to a successful outing is to having the proper knowledge and tools.  All Bushcraft/Survival knives are made for a specific task.  Objective to provide the user with a tough roughed blade with an ergonomically designed handle to prevent hot spots, blisters, and slippage.</p>
+            <p class="card-text">The key to a successful outing is to having the proper knowledge and tools.  All Bushcraft/Survival knives are made for a specific task.  Objective to provide the user with a tough rugged blade with an ergonomically designed handle to prevent hot spots, blisters, and slippage.</p>
             <p class="card-text"><small class="text-muted">Last updated 7 months ago</small></p>
           </div>
         </div> 
