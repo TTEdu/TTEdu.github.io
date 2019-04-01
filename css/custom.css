@@ -46,7 +46,6 @@
   color: #ffffff;
 }
 
-
 .img_hover_about_info {
   display: block;
 }
@@ -92,10 +91,6 @@
         margin-bottom: 1px;
 }
 
-.ig--func :hover {
-
-}
-
 .himage {
   opacity: 1;
   display: block;
@@ -128,22 +123,3 @@
   font-size: 100%;
   padding: 10px 10px;
 }
-
-.social-icon {
-  background-color: #556b2F;
-}
-}
-/*
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ecf0f1;
-    background-color: #000000;
-  }
-}
-*/
